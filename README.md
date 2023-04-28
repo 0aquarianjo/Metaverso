@@ -1,2 +1,2 @@
 # Metaverso
-Este projeto foi criado para ser utilizado durante a apresentação de um seminário, onde foi distribuído o código html para complementar o assunto tratado | This project was created to be used during the presentation of a seminar, where the html code was distributed to complement the subject matter.
+Para visualização do site, basta baixar os arquivos numa mesma pasta e executar o index.html em um navegador. | To view the site, just download the files in the same folder and run index.html in a browser.
