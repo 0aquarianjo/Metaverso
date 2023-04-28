@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Metaverso</title>
+    <link rel="icon" href=".\img\icon.webp"/>
+	<style>
+	 body {
+            background-image: url(bg.gif);
+            background-repeat: no-repeat;
+			background-size: cover;
+            background-position: center;
+			background-attachment: fixed;
+        }
+		h1 {
+			text-align: center;
+			font-size: 40px;
+			color: #555;
+			margin-top: 50px;
+			text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+		}
+		.album {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+			max-width: 800px;
+			margin: 0 auto;
+		}
+		.photo {
+			position: relative;
+			margin: 10px;
+			border: 3px solid #fff;
+			box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+			overflow: hidden;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		}
+		.photo:hover {
+			transform: scale(1.05);
+			box-shadow: 3px 3px 8px rgba(0,0,0,0.5);
+		}
+		.photo img {
+			display: block;
+			width: 100%;
+			height: auto;
+		}
+		.photo .caption {
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			padding: 10px;
+			background-color: rgba(0,0,0,0.7);
+			color: #fff;
+			font-size: 20px;
+			text-align: center;
+			opacity: 0;
+			transition: all 0.3s ease-in-out;
+		}
+		.photo:hover .caption {
+			opacity: 1;
+		}
+	</style>
+</head>
+<body>
+	<h1>Metaverso</h1>
+	<div class="album">
+		<div class="photo">
+			<a href="https://www.youtube.com/watch?v=lonO1J-1_1Q" target="_blank">
+			<img src="metaverso.jpg" alt="Metaverso">
+			<div class="caption">Clique para conhecer mais sobre o metaverso</div>
+			</a>
+		</div>
+		<div class="photo">
+			<a href="https://www.youtube.com/watch?v=yulwIjJ-C4Q" target="_blank">
+			<img src="jogador.jpg" alt="Jogadorn1">
+			<div class="caption">Clique para ver o trailer do filme</div>
+			</a>
+		</div>
+		<div class="photo">
+			<a href="https://www.roblox.com/" target="_blank">
+			<img src="roblox.jpg" alt="Roblox">
+			<div class="caption">Clique para entrar no site do Roblox</div>
+			</a>
+		</div>
+		<div class="photo">
+			<a href="https://decentraland.org" target="_blank">
+			<img src="dece.webp" alt="Decentraland">
+			<div class="caption">Clique para entrar no site do Decentraland</div>
+			</a>
+		</div>
+		<div class="photo">
+			<a href="https://www.sandbox.game/en/" target="_blank">
+			<img src="sand.webp" alt="SandBox">
+			<div class="caption">Clique para entrar no site do The SandBox</div>
+			</a>
+		</div>
+		<div class="photo">
+			<a href="https://www.meta.com/horizon-worlds/" target="_blank">
+			<img src="meta.webp" alt="HorizonWorlds">
+			<div class="caption">Clique para entrar no site do Horizon Worlds</div>
+			</a>
+		</div>
+		<div class="photo">
+			<a href="https://www.youtube.com/watch?v=qiQYgvL7aUk" target="_blank">
+			<img src="geex.webp" alt="Geex">
+			<div class="caption">Clique para conhecer mais sobre a Dra Geex</div>
+			</a>
+		</div>
+		<div class="photo">
+			<a href="https://framevr.io/" target="_blank">
+			<img src="framevr.png" alt="FrameVr">
+			<div class="caption">Clique para construir seu próprio metaverso</div>
+			</a>
+		</div>
+	</div>
+</body>
+</html>
